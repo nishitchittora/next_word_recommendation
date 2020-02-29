@@ -1,0 +1,489 @@
+Results-driven achiever and highly motivated team player with good analytical and problem solving skills.
+Proven ability to complete tasks within the stipulated time and to the best possible standards.
+Senior Fund Accountant/Deputy Manager, Citibank Singapore.
+Responsible for the daily operation and supervision of the team.
+Advise the team on fund accounting controls and procedures.
+Liaise with fund managers, clients, brokers and internal counterparts to ensure service delivery.
+Participate in the implementation and migration of new clients/funds.
+Work with the manager to ensure efficient work allocation within the team.
+Perform cash, position and future reconciliations against broker/custody records.
+Ensure pricing accuracy and completeness of corporate actions.
+Prepare financial statements of funds in accordance with accounting principles.
+Assist senior auditors to conduct compliance and financial statement audit on various publicly listed companies, including financial institutions, manufacturing and Real Estate Investment Trust (REIT).
+Assess the adequacy and effectiveness of internal controls system and provide recommendations for improvement in Management Letter.
+Perform financial statement analysis and obtain explanations for significant fluctuations from expectations.
+Perform various audit procedures and prepare documentation on all audit work done.
+Assistant - Career & Employment Services, University of Melbourne (Part-time).
+Assisted in the running of various career events held at university.
+Assisted in organising various career resources for easy reference by students.
+Assisted the Career & Employment Consultant with administrative duties.
+Systems: Multifonds fund accounting system, custody system, Bloomberg, Reuters.
+Fluent in written and spoken English, Chinese, and Indonesian.Department of Computer Science & Engineering Rajasthan Technical University, Kota Session (2017-18).
+This is to certify that Jai Janyani, Kartik Agarwal, Abhishek Sharma of VIII Semester,.
+B. Tech (Computer Science & Engineering) “2017-2018”, has completed a project titled.
+“AUTOMATED RESUME SCREENING SYSTEM” in fulfillment for the award of the degree of Bachelor of  Technology under Rajasthan Technical University.
+I hereby declare that the work, which is being presented in the Project, entitled.
+“AUTOMATED RESUME SCREENING SYSTEM” in fulfillment for the award of Degree of.
+“Bachelor of Technology” in Department of Computer Science & Engineering with Specialization in Computer Engineering, and submitted to the Department of Computer Science &Engineering, University College of Engineering,Rajasthan Technical University is a record of my own investigations carried under the Guidance of Mr. Vikas Panthi, Department of Computer Science & Engineering. I have not submitted the matter presented in this Report anywhere for the award of any other Degree.
+We have taken efforts in this project. However, it would not have been possible without the kind support and help of many individuals and teachers. We would like to extend my sincere thanks to all of them.
+We am highly indebted to Mr. Vikas Panthi for their guidance and constant supervision as well as for providing necessary information regarding the project & also for their support in completing the project.
+We would like to express our gratitude towards our parents & faculties of CS department for their kind co-operation and encouragement which help us in completion of this project.
+Our thanks and appreciations also go to our colleague in developing the project and people who have willingly helped us out with their  abilities.
+Designing an automated system to extract information from unstructured resumes and  transform that information to structured format. And ranking those resumes based on the information extracted, according to the skill sets of the candidate and based on the job description of the company.
+Today, online recruiting web sites such as Monster and Indeed.com have become one of the main channels for people to find jobs. These web platforms have provided their services for more than ten years, and have saved a lot of time and money for both job seekers and organizations who want to hire people. However, traditional information retrieval techniques may not be appropriate for users. The reason is because the number of results returned to a job seeker may be huge, so job seekers are required to spend a significant amount of time reading and reviewing their options.One popular approach to resolve this difficulty for users are recommender systems,which is a technology that has been studied for a long time.
+In this thesis we have made an effort to propose a personalized job-resume matching system, which could help job seekers to find appropriate jobs more easily. We used a information extraction library to extract models from resumes and job descriptions. We devised a new statistical-based ontology similarity measure to compare the resume models and the job models. Since the most appropriate jobs will be returned first, the users of the system may get a better result than current job finding web sites.
+Using NLP(Natural Language Processing) and ML(Machine Learning) to rank the resumes according to the given constraint, this intelligent system ranks the resume of any format according to the given constraints or the following requirement provided by the client company. We will basically take the bulk of input resume from the client company and that client company will also provide the job description and the constraints according to which the resume should be ranked by our system.
+Table 1  :  Fields for which “match” features are extracted if available.
+Finding the right person for the right job has never been an easy feat for companies, whose value is very often to a large degree derived from their manpower. With the increased mobility of job seekers in recent years, more and more jobs are seeing rapidly growing pools of potential candidates, requiring respective recruiters to wade through hundreds if not thousands of CVs to find the perfect match.
+When there is a large number of candidates, the automation can also include a more challenging task: scoring and ranking candidates’ CVs according to their match to a job posting (represented concretely as a query). This task is usually implicitly performed by a search engine’s retrieval model, which computes ranking scores based on the text overlap of the CVs with the query keywords. While text similarity might reflect good matches for some jobs, it is easy to find examples where this naive approach fails (e.g. a warehouse manager should not appear on top of a list for assistant warehouse manager). Improvement could be obtained through data-driven approaches, however, in the domain of recruitment it is very costly to compile and annotate enough data so that supervised learning would be possible.
+This thesis takes on a data-driven approach but avoids the hand labelling of training data by using a different kind of information: We use a dataset with recruiters’ hiring decisions to learn a ranking model, which can improve on the initial search ranking. For this purpose we first introduce field relevance models for CVs, which are generally unsupervised models that can take advantage of implicit domain knowledge in a large collection of CVs. We demonstrate in an experiment that such a model has the potential to improve the recall of retrieval when applied in a simple query expansion set-up.
+To improve the ranking of CVs we take on a feature-oriented, learning-to-rank approach (LTR),.
+i.e. we propose a number of features for our problem domain, forming the basis for a machine learning algorithm whose resulting model is a ranking model. In particular, we also propose features which can be computed based on the field relevance models.
+The main contributions of this thesis can be summarised as follows:.
+We propose an unsupervised model that can take advantage of implicit knowledge to summarize every resume and extract information from it.
+We adopt a feature-oriented view of retrieval and describe a number of features that can be used in a learning-to-rank framework for the ranking of CVs.
+We used K Nearest Neighbours and Content based filtering algorithm for the ranking of CVs according to job description.
+Hiring the right person for the right job is a common challenge faced by all companies. Especially for positions with a large number of applicants the search for the right candidate(s) can feel like looking for a needle in the haystack. In these situations traditional methods of recruitment can be too expensive and time-consuming to be a viable option. Hence, not surprisingly, recruitment technology that can facilitate this process are in high demand. E.g. using a (searchable) database of candidates and a search engine a recruiter can preselect a small number of suitable candidates from a much larger pool so as to assess them in further recruitment procedure. It should be noted that the goal of such software is not to replace the “human” in human resources but to make the decision process smoother for the recruiter. For this purpose an increasing number of software packages provide means for executing recurring tasks automatically. Both CVs and job postings can be automatically parsed and relevant information is extracted and stored in databases. Easy-to-use interfaces are provided for maintaining the quality of extracted information (e.g. for manual corrections) and for keeping track of typical HR processes involving vacancies, candidates and interviews(so-called applicant tracking systems or ATS). With the growing importance of social media, more and more companies nowadays also offer “social recruiting” capabilities, which can tap into an even larger, more global pool of qualified candidates through social media platforms such as LinkedIn and Xing. Thus, in order to take full advantage of the bigger candidate pools, it is crucial to apply smart search and ranking strategies such that good candidates are indeed placed on top and do not disappear in the crowd.
+The goal of this thesis is to extend the search and ranking component of an existing commercial recruitment software package. In particular, we target the ranking component of a CV search engine, which is responsible for scoring and ranking candidates’ CVs for queries (either issued by users or automatically translated from job postings). This existing software offers some basic functionalities, which form the foundation of many common recruitment processes:.
+The automatic CV parsing extracts relevant information such as name, address, skills and previous work experience from original CVs (e.g. given as PDF or DOC documents) and transforms them into a searchable semi-structured format.
+The search engine indexes parsed CVs and enables searching with semi-structured queries as well as through search facets and tag clouds. CVs are assigned a relevance score w.r.t. the query by the search engine and are ranked accordingly.
+Automatic vacancy parsing extracts relevant information from vacancies such as the title of the advertised position, skill requirements and other job-opening-related keywords.
+The query generation component automatically generates semi structured search queries for finding matching candidates in the document collection.
+The CV and vacancy parsing models are machine-learned models, which are trained to detect relevant phrases and sections in CVs and vacancies and can infer what kind of information the given phrase represents. Knowing the “meaning” of relevant parts of a CV allows more sophisticated search and filtering options, e.g. by searching only in the skills section or filtering candidates by their years of experience.
+The workflow that we are mainly interested in involves the query generation component, which uses the information obtained from the vacancy parsing model and generates a query according to a predefined template. This kind of query is generally longer than user defined queries and contains a lot more information. An example query is given in Listing 1, which contains both terms that should match in specific fields and terms which can match anywhere in the CV (so-called fulltext terms).
+Thus, these queries provide a good basis for finding candidates that match the original job posting well with very little human effort. Based on the search terms in the generated query, the search engine in our current system computes a score for each candidate’s CV, according to which a final ranking is created. The focus of our work is to extend this current ranking system by learning a model that can re-rank an already ranked list of candidates according to some notion of suitability for a given query. Concretely, the initial ranking is performed by the search engine’s TFIDF based retrieval model. Our “re-ranking” model should manipulate the ranking of this preselected list to ensure that the best candidates are placed on top. Furthermore, we want to gain some understanding of the aspects that play a role in the learning and the ranking procedure and how they relate to possible notions of  suitability /relevance.
+This task is challenging because we face a logical (i.e. given the already existing set-up) but highly competitive baseline provided by the search ranking. Previous user feedback suggests that the retrieval model used by the search engine already captures some notion of relevance that has a correspondence to the suitability of candidates. The approach that this work follows to tackle this challenge is one of machine learning, i.e. we want to learn a model from data without having to craft a ranking function or ranking rules explicitly. This approach requires a suitable dataset from which a ranking model can be learned. The details of the datasets that are used in our project are given in the next section.
+The practical motivation for our learning approach is the availability of a relatively large dataset which contains real-world job ads, original CVs of the applicants for these jobs as well as information about which candidates were hired in the end of the recruitment process. We will refer to this dataset as the hiring decisions. Another, much smaller dataset contains human relevance judgements for a number of job ads and CVs of people who did not necessarily apply for the given job(in this thesis referred to as the relevance assessments).
+The major objective of our system is to take the current resume ranking system to other level and makes it more flexible for both the entity.
+Candidates, who has been hired : Candidates who are searching for jobs after been graduated. Out of those, major number of candidates are so much desperate that they are ready to work on any post irrelevant to their skill set and ability.
+The main reason behind this unemployment is like a cancer to our society, if a guyis not got place after been passed out for 1yr, society include relatives starting blaming that guy. Inspite of this reason the candidate are ready to work in any condition, on any post. So they don’t have to face those situation.
+Where our system help such candidates to get hired by such a company or an organisation who really worth their ability and their skill sets. Where our algorithm will work in such a way that with the help of the previous result and previous ranking constraints, it will try to optimize the current result, which we called it Machine Learning.
+This will make sure that the relevant candidate is been hired for that particular vacancy. You can say best possible candidate.
+Client company, who is hiring the candidates : Like I am the owner of a particular organisation, obviously my aim would be to create such a team which is the best team in the world. It is like, if there is a vacancy of a java developer in my organisation. So, I won’t prefer to hire a python developer and then make him learn Java. That will be pretty useless and time consuming for both that candidate and for the organisation too.
+Where our system help the organisation to make out the best possible candidates list according to their given constraints and requirement for that particular vacancy.
+This kind of approach, will help our hiring sector to improve like anything and make it more efficient as the relevant person is getting a relevant job. So there would be no regrets for both the entities, client company and that hired candidate. Hence satisfaction will be achieved.
+As we know Indian I.T sector is second largest candidate recruiting sector of our country. It contribute about 7.5% to our Gross Domestic Product(G.D.P) Our Proposed system is initially concerned with the I.T sector of our country. It is mainly going to deal the Indian I.T industry but if you talk about the pro version of our system it can be extended to various other commercial sector where, intake and elimination are in bulk like for Govermental Jobs.
+Job searching, which has been the focus of some commercial job finding web sites and research papers is not a new topic in information retrieval. Usually scholars called them Job Recommender Systems (JRS), because most of them used technologies from recommender systems. Wei et al classified Recommender Systems into four categories[48] : Collaborative Filtering, Content-based filtering, Knowledge based and Hybrid approaches. Some of these techniques had been applied into JRS; Zheng et al. [44] and AlOtaibi et al. [3] summarized the categories of existing online recruiting platforms and listed the advantages and disadvantages of technicalapproaches in different JRSs. The categories include:.
+The principle of a content-based recommendation is to suggest items that have similar content information to the corresponding users, like Prospect [43].
+Collaborative filtering recommendation finds similar users who have the same taste with the target user and recommends items based on what the similar users, like CASPER [35].
+In the knowledge-based recommendation, rules and patterns obtained from the functional knowledge of how aspecific item meets the requirement of a particular user, are used for recommending items, like Proactive [24].
+4. Hybrid recommender systems combine two or more recommendation techniques to gain better performance, and overcome the drawbacks of any individual one. Usually, collaborative filtering is combined with some other technique in an attempt to avoid the ramp-up problem.
+Rafter et al. began to use Automated Collaborative Filtering (ACF) in their Job Recommender System, “CASPER” [35]. All these factors are viewed as measure of relevance among users. The system recommend jobs in two steps: First, the system finds a set of users related to the target user; second, the jobs that related users liked will be recommend to the target user. The system use cluster-based collaborative filtering strategy.
+CASPER also allows users to search jobs by a query which is a combination of some fields: like location, salary, skill and so on. The system uses such query to find jobs, and the returned jobs are ranked with the collaborative filtering algorithm.In their paper, the authors do not give a detailed description on how to detect the related fields they need and how to the transfer semi-structured job description to the structured data.
+The shortages of collaborative filtering: First, since the number of search results is huge, and the results are sorted randomly, the probability of two similar usersreviewing the same jobs is low, which causes the sparsity problem of collaborativefiltering. Second,because recommended jobs are from others users’ search results, since the quality of current searching result are low, the quality of recommendation cannot be high.
+Learning to rank refers to machine learning techniques for training the model in a ranking task.
+Learning to rank is useful for many applications in Information Retrieval, Natural Language Processing, and Data Mining. Intensive stud-ies have been conducted on the problem and significant progress has been made. This short paper gives an introduction to learning to rank, and it specifically explains the fundamental problems, existing approaches, and future work of learning to rank.
+Potential candidate may loose the opportunity because of ambigious keyword matching.
+Use of NLP to read resumes allow candidates the freedom to choose any format that's avalible to them.
+Machine learning is used to rank candidates in accordiance to requirements Which reduces the efforts of sorting thousands of resumes.
+Five benifits of A.I. -Goes Beyond Key Words, Fast and Accurate, Perfect For the New World of Social Recruiting ,Customizes to your Needs, Gets Smarter.
+In this System the Hiring team would publish their vacancies and invite applicants. Methods of publishing were newspaper, television and mouth. The interested candidates would then apply by sending there resumes. These resumes were then received and sorted by the hiring team and shortlisted candidates were called for further rounds of interviews. The whole process would take lot of time and human efforts to find right candidate suitable for their job roles.
+As the industries have grown, there hiring needs has rapidly grown. To serve this hiring needs certain consultancy units have came into existence. They offered a solution in which the candidate has to upload their information in a particular format and submit it to the agency. Then these agencies would search the candidates based on certain keywords. These agencies were middle level organizations between the candidate and company. These systems were not flexible as the candidate has to upload there resume in a particular formats, and these formats changed from system to system.
+This is our proposed system, which allow the candidates to upload their resumes in flexible format. These resumes are then analyzed by our system, indexed and stored in a specific format. This makes our search process easy. The analyzing system works on the algorithm that uses Natural Language Processing, sub domain of Artificial Intelligence. It reads the resumes and understands the natural language/format created by the candidate and transforms it into a specific format. This acquired knowledge is stored in the knowledge base. The system acquires more information about candidate from his social profiles like Linkedin and Github and updates the knowledge base. Ranking Attributes are:.
+The tutorial is intended to be accessible for enthusiasts, engineers, and data scientists at all skill levels. The only skills that you will need are a basic understanding of Python and enough knowledge of the command line to setup a project.
+Python is used for creating backbone structure. Python is intended to be a highly readable language. It is designed to have an uncluttered visual layout, it uses whitespace indentation, rather than curly braces or keywords. Python has a large standard library, commonly cited as one of Python's greatest strengths.
+BeautifulSoap is an application framework for crawling web sites and extracting structured data which can be used for a wide range of useful applications, like data mining, information processing or historical archival. Even though BeautifulSoap was originally designed for web scraping, it can also be used to extract data using APIs (such as Amazon Associates Web Services) or as a general purpose web crawler. BeautifulSoap is controlled through the BeautifulSoap command-line tool, to be referred here as the “BeautifulSoap tool” to differentiate it from the sub-commands, which we just call “commands” or “BeautifulSoap commands”. The BeautifulSoap tool provides several commands, for multiple purposes, and each one accepts a different set of arguments and options.
+Natural Language Processing Tool : Natural Language Toolkit (NLTK) (Python Package).
+NLTK was originally created in 2001 as part of a computational linguistics course in the Department of Computer and Information Science at the University of Pennsylvania. Since then it has been developed and expanded with the help of dozens of contributors. It has now been adopted in courses in dozens of universities, and serves as the basis of many research projects.
+Simplicity : To provide an intuitive framework along with substantial building blocks, giving users a practical knowledge of NLP without getting bogged down in the tedious house-keeping usually associated with processing annotated language data .
+Consistency : To provide a uniform framework with consistent interfaces and data structures, and easily guessable method names .
+Extensibility : To provide a structure into which new software modules can be easily accommodated, including alternative implementations and competing approaches to the same task.
+Modularity : To provide components that can be used independently without needing to understand the rest of the toolkit.A significant fraction of any NLP syllabus deals with algorithms and data structures. On their own these can be rather dry, but NLTK brings them to life with the help of interactive graphical user interfaces that make it possible to view algorithms step-by-step. Most NLTK components include a demonstration that performs an interesting task without requiring any special input from the user. An effective way to deliver the materials is through interactive presentation of the examples in this book, entering them in a Python session, observing what they do, and modifying them to explore some empirical or theoretical issue.
+It is a Python module integrating classic machine learning algorithms in the tightly-knit scientific Python world (numpy, scipy, matplotlib). It aims to provide simple and efficient solutions to learning problems, accessible to everybody and reusable in various contexts: machine-learning as a versatile tool for science and engineering.
+In general, a learning problem considers a set of n samples of data and try to predict properties of unknown data. If each sample is more than a single number, and for instance a multidimensional entry (aka multivariate data), is it said to have several attributes, or features.
+We can separate learning problems in a few large categories:.
+Supervised learning , in which the data comes with additional attributes that we want to predict .This problem can be either: –classification: samples belong to two or more classes and we want to learn from already labeled data how to predict the class of unlabeled data. An example of classification problem would be the digit recognition example, in which the aim is to assign each input vector to one of a finite number of discrete categories. – regression: if the desired output consists of one or more continuous variables, then the task is called regression. An example of a regression problem would be the prediction of the length of a salmon as a function of its age and weight.
+Unsupervised learning , in which the training data consists of a set of input vectors x without any corresponding target values. The goal in such problems may be to discover groups of similar examples within the data, where it is called clustering, or to determine the distribution of data within the input space, known as density estimation, or to project the data from a highdimensional space down to two or thee dimensions for the purpose of visualization.
+Design is the first step in the development phase for any techniques and principles for the purpose of defining a device, a process or system in sufficient detail to permit its physical realization. Once the software requirements have been analyzed and specified the software design involves three technical activities design, coding, implementation and testing that are required to build and verify the software. The design activities are of main importance in this phase, because in this activity, decisions ultimately affecting the success of the software implementation and its ease of maintenance are made..
+The system uses information extraction technique to parse job descriptions and resumes, and it gets information such as skills, job titles and education background. The information is used to create the models of job openings and job seekers. A domain specific ontology is used to construct the knowledge base, which includes the taxonomies that support resume-job matching.
+The models of resume includes job seekers specialties, working experience and education background, and all the fields are extracted from their resumes. The job models are extracted from job descriptions, and they have the same information fields as the resume models. When a job seeker searches the jobs by their resume, the system calculates the similarity between the resume model and job models, then gives every job model a similarity value.
+Our system follows the three tier architecture . First tier consist of GUI, Processing block and the Database.
+GUI: The GUI(Graphical User Interface) in our project deals with the interface for the user where the user will  submit his resumes and job description in any format(pdf, doc, docx,ect.).The GUI provides a platform for the user to communicate with the database. It acts as a connector as well as communicator which connects the database and helps in transfer of data between the GUI and the database.
+Processing block: Processing block is the block where the actual processing of our project is done. This block connects the gui to the database i.e. it acts as a connector as well as communicator which connects the database and helps in transfer of data between the gui and the database. Its main function is to take input from resumes, convert them to text  and parse it to store the information in database. After storing this information this system will give output using web application.
+Database: Database tier is the tier used for the storage of data. This tier contains all the data that is need for the processing of the whole project. The data in this tier is related to the student information gathered form his/her resumes.
+Figure shows the architecture of the whole system, which includes such modules:.
+The Web Crawler can access and download resume’s from indeed.com everyday.
+The Job Parser can parse job description given by recruiter, extract the information and create the job model.
+The Resume Parser is much like the Job Parser; it parses the resumes,convert all resume files to text file , summarize every resume content and creates the resume models.
+All the  job models and resume model are stored in the database.
+After that machine learning techniquues are applied to rank the resume’s acoording to job description.
+Information Extraction is the task of automatically extracting structured information such as entities, relationships between entities, and attributes describing entities from unstructured sources [42]. The IE framework in our system uses six stages in order to extract the information from job descriptions: HTML parsing,segmenting, preprocessing, tokenizing, labeling and pattern matching, which is show in Figure .
+The HTML Parsing will parse the web pages that contain job descriptions, which are obtained from web crawler. The parser uses HTML tag template to extract attributes of the jobs, like job title, location, company name, content and so on. A job will be saved as a record with these attributes in the database. In the record, the content field contains the text part of the job description, which will be processed inlater stages.
+In the segmenting stage, the content field of the job description is be separated into paragraphs according HTML tags. Then paragraphs are separated into sentences by either HTML tags or punctuation, and after this step, all HTML tags will be removed.
+Web pages of job description are created in different character sets, (e.g. UTF8 and ISO 88591), and almost always contain some unreadable characters. In theprepossessing stage, characters in the sentences are converted to ASCII characters,unreadable characters will be deleted, and some punctuation will be replaced by spaces (e.g. / and -).
+Now resume are downloaded by webcrawler or one can directly upload resume through GUI interface.
+Every resume file is then converted to a text file and data of each resume is summarized for fast processing. Summarization is performed to remove stopwords and special characters. This is done using NLTK corpus dictionary of stopwords.
+In the tokenizing stage, the sentences of job description will be tokenized into arrays of tokens by NLTK [5] and TFIDF Vectorizer.This formed array is named as Item-Feature matrix.
+Now each resume is taken and tokenized using TFIDF Vectorizer. A new 2-D array is formed in which each row contains tokenized items of single resume. Column attributes in this array is features of item feature matrix. This array is named as User-Feature matrix.
+In the pattern matching  and ranking stage, the KNN algorithm and Content Based Filtering algorithm is used to match the user features with the features of job description.
+After this resume are ranked in decending order seperately by each algorithm and the output is shown on GUI interface.
+We will describe some implementation details here. The whole system is implemented in Python and uses some third party libraries and frameworks. We used Flask, a lightweight web framework, to build the web application. We used pdf to text file parser, Python Lex-Yacc (PLY) as the token regular expression compiler, and Beautiful Soup as the HTML parser. All the jobs and resumes retrieved by the Web Crawler are stored database. For the natural language processing procedure,we used Natural Language Toolkit (NLTK), a natural language processing library,to extract and tokenize the sentences.
+In this chapter we will explain how the Information Extraction (IE) module of our system extracts information from these unstructured data source. An example of job description is shown in Table. The IE framework will be introduced by example of processing the job descriptions and resumes. The Gensim, which is used as summarization tools, will be introduced as well.
+Gensim : is a robust open-source vector space modeling and topic modeling toolkit implemented in Python. It uses NumPy, SciPy and optionally Cython for performance. Gensim is specifically designed to handle large text collections, using data streaming and efficient incremental algorithms, which differentiates it from most other scientific software packages that only target batch and in-memory processing. Gensim includes implementations of tf-idf, random projections, word2vec and document2vec algorithms, hierarchical Dirichlet processes (HDP), latent semantic analysis (LSA, LSI, SVD) and latent Dirichlet allocation (LDA), including distributed parallel versions.
+TF-IDF Vectorizer: In information retrieval, tf–idf or TFIDF, short for term frequency–inverse document frequency, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus. It is often used as a weighting factor in searches of information retrieval, text mining, and user modeling. The tf-idf value increases proportionally to the number of times a word appears in the document and is offset by the frequency of the word in the corpus, which helps to adjust for the fact that some words appear more frequently in general. Nowadays, tf-idf is one of the most popular term-weighting schemes; 83% of textbased recommender systems in the domain of digital libraries use tf-idf.
+Variations of the tf–idf weighting scheme are often used by search engines as a central tool in scoring and ranking a document's relevance given a user query. tf–idf can be successfully used for stop-words filtering in various subject fields, including text summarization and classification.
+One of the simplest ranking functions is computed by summing the tf–idf for each query term; many more sophisticated ranking functions are variants of this simple model.
+Our basic set of features are based on the fields of the indexed documents and the queries: Most of these features can be described as “match” features, i.e. they denote whether the value(s) of a field given in the query matched the value(s) of the same field in the document. This information is usually returned by the search engine in the form of a score for each indexed field, which can be directly used as a feature.
+Match features are crucial query-document features, i.e. they depend both on the query and the document, hence, giving an indication about how well a document matches a specific query. Table shows the fields for which we have defined match features. For the fields that can have multiple values, e.g. compskills, we concretely defined several match features: 1) the match score averaged over all values given in the query, 2) the maximum match score (only relevant for the float score variant) and 3) the sum of all match scores.
+In addition to query terms associated with certain fields most of our queries also contain fulltext search terms, i.e. terms that can match in any field. Hence, we also defined match features for these terms.
+Table 1: Fields for which “match” features are extracted if available.
+We employ a K-Nearest Neighbor method for job description based ranking of Resumes. For each training job description, we define a feature vector and represent it in the query feature space (a Euclidean space). Given a new resume, we try to find the k closest training queries to it in terms of Euclidean distance. We then train a local ranking model online using the neighboring training queries (denoted as Nk(q)) and rank the documents of the test query using the trained local model. For local model training, we can in principle employ any existing learning to rank algorithm.
+We call the corresponding algorithm ‘KNN’. Figure illustrates the workings of the algorithm where the square denotes test query q, triangles denote training queries, and the large circle denotes the neighborhood of query q. The details of the algorithm are presented in Figure. Needless to say, the query features used in the method are critical to its accuracy. In this paper, we simply use the following heuristic method to derive query features and leave further investigation of the issue to future work. For each query q, we use a reference model to find its top T ranked documents, and take the mean of the feature values of the T documents as a feature of the query. For example, if one feature of the document is tf-idf, then the corresponding query feature becomes average tf-idf of top T ranked documents of the query. If there are many relevant documents, then it is very likely that the value of average tf-idf would be high.
+A test job description and the associated documents to be ranked.
+For each training query qi , use reference model hr to find its top T ranked documents, and compute its query features from these documents.
+Use reference model hr to find the top T ranked documents for query q, and compute q’s query dependent features from these documents.
+Within the training data find k nearest neighbors of q, denoted as Nk(q), with distance computed in the query feature space.
+Apply hq to the documents associated with query q, and obtain the ranked list.
+Content-based filtering (CBF) is treated as information retrieval problem or machine learning problem. In information retrieval problem, the document representations have to be matched to user representations on textual similarity while, in machine learning problem, the textual content of the representations are combined as feature vectors, which are used for training a prediction algorithm There are two main tasks related to CBF recommender systems, the User profiling and the Item representation. User profiling is one of most challenging tasks in CBF recommender systems that deal with acquiring, extracting A and representing the features of users. However, the user interface can easily be created to assist users building their profiles. classified the profile information into two types:.
+the users preferences such as item description that interest the user. There are many possible representations of this description, but the common representation is using a function to predict the possibility of user is interested in that item.
+The users interactions history with the recommendation system that includes saving the items that a user has viewed with information about users interaction.
+Now that we have learned all these concepts, let’s actually try to build a simple content based recommender based on job description.  Hence, having a recommender system would help.
+For binary representation, we can perform normalization by dividing the term occurrence(1/0) by the sqrt of number of attributes in the resume. Hence, for resume 1: normalized attribute = 1/sqrt(3) = 0.577.
+A question that you must ask here is: what happened to TF? and why did we directly do normalization before calculating the TF scores? If you calculate TF without normalization, the TF scores will be 1+log 10 1 = 1 for attributes that occur and simply 0 for attributes that don’t. And, thus the TF scores will also becomes 1/0.
+The dot product of job description vectors and IDF vectors of resumes gives us the weighted scores of each resume. These weighted scores are again used for a dot product with the user profile vector (user 1 here)..
+This concept can be applied to ‘n’ resume  and we can find out which resume is best . Therefore, along with new resume in a week, a separate recommendation can be made to a particular job description.
+In this article, we have seen two approaches to content based recommenders. They both use the TF-IDF weighting and vector space model implementations, albeit in different ways. So while the count data helped us understand the methodology of calculating the weighted scores of resume, the binary representation helped us understand how to calculate the scores for data represented as 1/0 and we also saw how ranking are generated and predictions are made based on that.
+We compared the proposed KNN methods with the baselines of the single model approach (denoted as Single) and the query classification based approach (denoted as QC). For the second baseline, we implemented the query type classifier proposed in [26] to classify queries into three categories (topic distillation, name page finding, and home page finding). Then we trained one ranking model for each category. For a test query, we first applied the classifier to determine its type, and then used the corresponding ranking model to rank its associated documents.We make the following observations from these results:.
+The better results of KNN over Single indicate that query dependent ranking does help, and an approach like KNN can indeed effectively accomplish the task.
+The superior results of KNN to QC indicate that an approach based on soft classification of queries like KNN is more successful than an approach based on hard classification of queries like QC.
+QC cannot work better than Single, mainly due to the relatively low accuracy of query classification. In fact, the accuracies of classification in terms of F1 measure are only about 60% in the two datasets.
+Errors in the query classification can greatly damage the results of document ranking. This also shows that it is not easy to develop a query dependent ranking method that can beat conventional ranking methods. In contrast, the KNN methods can successfully leverage the ranking patterns of similar queries and achieve better ranking performances.
+We tested the performances of the KNN methods with different values of parameter k, the number of nearest neighbors selected. Notice that when k = m, KNN becomes equivalent to Single, where m denotes the number of training queries. Figure 8 shows the performances of the proposed methods on Dataset 1 with different k values in terms of NDCG@5 and.
+NDCG@10. From this figure, we can see that as k increases, the performances first increase and then decrease. More specifically,.
+When only a small number of neighbors are used, the performances of KNN are not so good due to the insufficiency of training data.
+When the numbers of neighbors increase, the performances gradually improve, because of the use of more information.
+However, when too many neighbors are used (approaching 1500, which is equivalent to Single), the performances begin to deteriorate. This seems to indicate that query dependent ranking can really help.
+The very poor performance of the word-only based approach tf-idfm has been omitted .The counter-performance of the baseline metrics LSAm on the top of the LSA representation is blamed on the poor overlap of the job announcement and CV vocabularies. The limitations of the LSA representation can be alleviated using the convolutional metrics (legend LSAu), with an improvement of circa 25%. Two main lessons are learned.
+In the evaluation phase, we created a data set of 100 job descriptions that includes several kinds of jobs such as web developers, server back-end developers, mobile developers and so on. We used 5 candidate r´esum´es and retrieved the top 20 jobs. The relevance value of the job descriptions to each r´esum´e were set manually by ten human judge. We created a query q from the job descriptions, treated the text of the resumes as documents d, and applied standard ad-hoc retrieval techniques to rank theresumes. We intended to return jobs that better matched the candidates resumes at the top.
+To evaluate the performance of the information extraction module, we extract sentence types through the use of sentence filters. To explain the process of our experiment, we use the sentences whose content pertains to the applicant’s college degree information.
+In the experiment, we selected 100 sentences from existing job descriptions, and the content of these sentences were requirements of candidate degree and major. We labeled the values for ”degree” and ”major” manually. We use some content patterns that we can identify from these sentences to match and extract the degree information. When we used 6 patterns, the accuracy of ”degree” became 94%. We also compared our pattern matching method to the conditional random fields (CRFs) model [22], which is a state of art machine learning model for sequence labeling. We used 200 labelled sentences to train the CRF model, and the features of the CRF model are words in the sentences and part of speech tags of the words. The accuracies of information extraction of the three fields with our two methods, pattern matching, and the application of the CRF model.
+The fact that 80% of the relevant resumes are found in the top-200 recommended resumes is very satisfactory from the application viewpoint, as each recruiter (resp. job seeker) commonly examines several hundred CVs (resp. job announcements). This good result confirms the quality and representativity of the data. As already said however, the collaborative filtering setting does not correspond to the general setting of the job matching application, that mostly considers new job announcements and CVs.
+This work has made an extensive effort to provide a system through which the resumes can be ranked with maximum efficiency. By implementing this system, the task of obtaining the most relevant resumes can be achieved which will save the recruiter time to manually select appropriate resumes, which even after processing may not be a complete fit for the profile. Since, there are multiple levels of screening involved in order to find the most relevant resumes; the accuracy of the system also improves. Thus, using this ranking technique, we can obtain the best results for obtaining the ideal resumes. This approach will automate as well as speedup the process of the HR recruiters.
+In the system, job descriptions and resumes are parsed into job models and resume models by the information extraction module. When searching the jobs by a resume, similarity values between the resume model and job description models are calculated in the ontology matching module. The result is sorted by the ontology similarity scores, which are the sum of similarities of different fields multiplied by their weights.
+We used a TFIDF based matching tool to extract information from unstructured data source, which is a lightweight and flexible library, and can be extended in very easy ways.
+We developed a semi-automatic approach, which can collect technical terms from hr data sources, and by which we created a domain specific ontology for recruitment.
+We developed statistical-based ontology similarity measure, which can measure the similarities between technical terms .
+In the experiment phase, we evaluated the accuracy of information extraction.
+We calculated the ontology similarity with the NDCG. Finally, we also tested the performance of resume job matching algorithm NDCG, which showed that our algorithm can achieve a better searching result than other information retrieval models like TF-IDF . We also compared our system with the commercial ranking system, and the results showed that our system can return better results.
+Finding a job is a complex process, affected by both explicit and implicit factors. Our work establishes the validity of using information extraction techniques to create a more personalized job matching system, with ample potential for improvement in the future.
+First we can introduce a more complex job and resume model to improve performance of the system. In the resume model, we can consider hiring history and project experience of the job seekers. To improve the job description model, job responsibilities and company characteristics (size, dress code, etc.) should be considered as well.
+Second, to improve searching speed of our system, we can reduce the number of comparison by filtering out jobs that are clearly not related to resumes. The systemcan classify the jobs into some different subsets, when searching jobs, the system only need to calculate the similarity between the resume and according subset of jobs. Resume Screening System is a content based recommendation system that is mostly focused on comparing the similarities between the resume and a relevant job description.
+In future work, we could introduce a hybrid recommendation system that would take advantage of other recommendation algorithms such as Collaborative Filtering. Future work on this system would place greater consideration on job seeker’s personal preference like job location, career development plan, and company background.
+The systems designed so far extracts all the information about the candidate only through his/her resume and after extraction it stores the information in a centralized database, finally ranking them and giving the top 50 results to the HR recruiter according to their specifications. Future advancements in this system can be as follows:.
+The profiles of the candidates can be tracked on social media sites as this will help in analyzing the personality of the candidate and whether he/she is a perfect fit for the post can be judged.
+Analysis can be done over the past records of the candidate which will help us determine his expected tenure of work in the organization.
+Deepak Agarwal, Bee-Chung Chen, Pradheep Elango, and Raghu Ramakrishnan. Content recommendation on web portals. Communications of the ACM, 56(6):92–101, 2013.
+Shaha T Al-Otaibi and Mourad Ykhlef. A survey of job recommender systems. International Journal of the Physical Sciences, 7(29):5127–5142, 2012.
+Y. Bachrach. Human judgments in hiring decisions based on online social network profiles. In Data Science and Advanced Analytics, pages 1–10, 2015.
+Y. Bengio, A. C. Courville, and P. Vincent. Representation learning: A review and new perspectives. IEEE Trans. Pattern Anal. Mach. Intell., 35(8):1798–1828, 2013.
+J. Bennett and S. Lanning. The netflix prize. In Proc Int. Conf. on Knowledge Discovery and Data Mining (KDD) Cup and Workshop, page 35, 2007.
+Jacob Bollinger, David Hardtke, and Ben Martin. Using social data for resume job matching. In Proceedings of the 2012 Workshop on Data-driven User Behavioral Modelling and Mining from Social Media, DUBMMSM ’12, pages 27–30, 2012.
+Fernando Diaz, Donald Metzler, and Sihem Amer-Yahia. Relevance and ranking in online dating systems. In Proc. Int. ACM SIGIR Conference on Research and Development in Information Retrieval, SIGIR ’10, pages 66–73, 2010.
+Richard Doherty. Getting social with recruitment. Strategic HR Review, 9(6):11–15, 2010.
+E. Faliagka, K. Ramantas, A. Tsakalidis, and G. Tzimas. Application of machine learning algorithms to an online recruitment system. In Proc. International Conference on Internet and Web Applications and Services, 2012.
+Frank Färber, Tim Weitzel, and Tobias Keim. An automated recommendation approach to selection in personnel recruitment. AMCIS 2003 Proceedings, page 302, 2003.
+G. W. Furnas, T. K. Landauer, L. M. Gomez, and S. T. Dumais. The vocabulary problem in human-system communication. Commun. ACM, 30(11):964–971, November 1987.
+Yaroslav Ganin, Evgeniya Ustinova, Hana Ajakan, Pascal Germain, Hugo Larochelle, François Laviolette, Mario Marchand, and Victor S. Lempitsky. Domain-adversarial training of neural networks. JMLR, to appear in 2016.
+Rémy Kessler, Nicolas Béchet, Mathieu Roche, Juan-Manuel Torres-Moreno, and Marc ElBèze. A hybrid approach to managing job offers and candidates. Inf. Process. Manage., 48(6). [14] Yehuda Koren, Robert Bell, and Chris Volinsky. Matrix factorization techniques for recommender systems. Computer, (8):30–37, 2009.
+V. Senthil Kumaran and A. Sankar. Towards an automated system for intelligent screening of candidates for recruitment using ontology mapping expert. Int. J. Metadata Semant. Ontologies, 8(1):56–64, 2013.
+Laurens van der Maaten and Geoffrey Hinton. Visualizing data using t-sne. Journal of Machine Learning Research, 9(Nov):2579–2605, 2008.
+Jochen Malinowski, Tobias Keim, Oliver Wendt, and Tim Weitzel. Matching people and jobs: A bilateral recommendation approach. In Proc. Annual Hawaii International Conference on System Science, volume 6, pages 137c–137c. IEEE, 2006.
+T Mine, T Kakuta, and A Ono. Reciprocal recommendation for job matching with bidirectional feedback. In Advanced Applied Informatics (IIAIAAI), 2013.
+Ioannis Paparrizos, B. Barla Cambazoglu, and Aristides Gionis. Machine learned job recommendation. In Proc. ACM Conference on Recommender Systems, RecSys ’11, 2011.
+Sam T Roweis and Lawrence K Saul. Nonlinear dimensionality reduction by locally linear embedding. Science, 290(5500):2323–2326, 2000.
+Tuukka Ruotsalo, Giulio Jacucci, Petri Myllymäki, and Samuel Kaski. Interactive intent modeling: Information discovery beyond search. Commun. ACM, 58(1):86–92, 2014.
+G. Strang. Linear Algebra and its Applications. Academic Press, New York, 1980.
+Xiaoyuan Su and Taghi M Khoshgoftaar. A survey of collaborative filtering techniques. Advances in artificial intelligence, 2009:4, 2009.
+Xing Yi, James Allan, and W. Bruce Croft. Matching resumes and jobs based on relevance models. In Proc. SIGIR Conference on Research and Development in Information Retrieval, pages 809–810. ACM, 2007.
+Dekang Lin. An information-theoretic definition of similarity. In ICML, volume 98, pages 296–304, 1998.
+Ping Liu and Peter Dew. Using semantic web technologies to improve expertisematching within academia. Proceedings of I-Know (Graz, Austria, pages 370–378, 2004.
+Yao Lu, Sandy El Helou, and Denis Gillet. A recommender system for job seeking and recruiting website. In Proceedings of the 22nd international conferenceon World Wide Web companion, pages 963–966. International World Wide WebConferences Steering Committee, 2013.
+Jochen Malinowski, Tobias Keim, Oliver Wendt, and Tim Weitzel. Matching people and jobs: A bilateral recommendation approach. In System Sciences,2006. HICSS’06. Proceedings of the 39th Annual Hawaii International Conference on, volume 6, pages 137c–137c. IEEE, 2006.Manage a team of 7, including 2 supervisors and up to 5 fund accountants.
+Developing and maintaining relationships with Investment Advisors/Managers.
+Escalating all material issues affecting the NAV process or client relationship to the Senior Account Manager. -  Reviewing Net Asset Value calculations and associated reports.
+Review Funds’ Private Placement Memorandum when necessary.
+Assist in coordinating fund’s annual audit and financial statements preparation.
+Assist in Corporate Secretarial duties for accounts that subscribed to the service. This includes co-ordination and preparation of the board papers, attending funds’ board meetings and reviewing minutes of the meetings.
+Working closing with team’s supervisor to identify and implement relevant training needs for the team.
+Holding monthly informal 1 on 1 with team members to ensure concerns within the team are addressed.
+Liaise with offshore team to ensure outsourced functions are performed in accordance to requirements.
+BCP coordinator: Represent department to co-ordinate firm- wide BCP exercise.
+Help roll out new reporting system to department, by liaising with development team and providing training. -  Help roll out new finance related system, including providing training and performing UAT.
+Oversee a team of 12, which 4 includes assistant managers and 8 fund accountants. Duties includes:.
+Handling day to day custody related queries raised by clients, including trade status, trade instructions, and asset transfers.
+Providing coaching to junior staff on various securities custody related processes and services.
+Team is responsible for daily oversight of custody operations of 80 funds belonging to 13 clients and also the delivery of daily valuation reports in a timely and accurate manner, risk management, liaising with various outsourcing teams and centers of excellence to ensure various custodial and fund accounting related tasks are completed.
+Daily responsibilities includes setting up client on e-banking tool (UBS Keylink), ensure clients queries are answered in a timely manner while maintaining clarity and accuracy.
+Meeting clients to understand their processes better and if possible propose better ways of using existing UBS Keylink functionalities to help client increase efficiency.
+Meeting clients to understand their new business requirements and if possible propose on how they can leverage on UBS Keylink capabilities to be part of their operating model.
+Identify knowledge gaps among users, through the daily queries received from users and propose training for users to help users to be more familiar with UBS Keylink.
+Work closely with counterparts in other locations to provide seamless service to clients as team adopts “follow the sun model”.
+Main modules supported are for Payment, FXMM and for Securities.
+Securities Operations (Singapore: May 2005 to May 2006, Sydney: May 2006 to Jan 2009).
+- Daily responsibilities includes Clients Servicing, Settlements for international trades, Asset Transfers, Corporate Actions, Daily Cash and Stock Reconciliation.
+Monthly reporting of department’s trade volumes, Risk Indicators and Service levels indicators.
+Responsible for error financing cost of the department and regional reporting of department’s errors and loss figures.
+-  Assist in co-coordinating department's efforts to streamline processes through simple changes that do not require system enhancements.
+Investigating and responding to queries from Wealth Management Relationship Managers.
+Assist in implementation of client query and investigation system.
+Manage projects initiated by the department, including system enhancements by liaising with various processing teams within the department.
+Represent department in project committees for bank-wide projects.
+Deutsche Bank / StateStreet Bank and Trust (1 May 2002 - 3 Nov 2004).
+-  Manage client’s portfolios’ daily administration and provide monthly net asset valuation of the portfolios.
+Report to Regional Offices on related Cost & Revenue, Risks and other Service Level Indicators.
+Analyze and investigate on department’s Cost & Revenue Variances.
+-  Prepare invoices for Custody Services rendered, Performance Reporting and Monthly Reconciliation. -  Maintain Information in core system used by the department.
+National University of Singapore (Jul’99-Dec’01): Bachelor in Business Administration.
+Pass with Merit, with distinctions in Accounting, Managing Personal Assets & Finance and Business Finance.
+Jurong Junior College, Singapore (Mar’95-Dec’96) : GCE A’ Levels •  With distinction in Mathematics.
+Queenstown Secondary School, Singapore (Jan’91-Dec’94): GCE O’ Levels • With distinctions in Mathematics.
+Actively participated and represented Schools, College and Varsity in Bowling, Track & Field and Volleyball.Fund accountant with nearly 2 years of experience in hedge fund administration, which includes preparation of NAV calculations, financial statements and associated reports. Consistently meeting deadlines while ensuring a high quality of work standards. Fast learner, driven for results and analytical in problem solving.
+Citco Fund Services (Singapore) Pte Ltd                            Jan 2016 – Present Fund.
+Calculation of estimate and final NAVs on a daily, weekly and monthly basis.
+Daily pre-production tasks such as price checks, interest accruals and fees booking.
+Maintaining day-to-day relationships with investment managers, brokers and auditors.
+Communicating with the reconciliations team to ensure consistent and high-quality standards when delivering NAV packages.
+Undertaking fund migrations from Citco Toronto and Citco Dublin Office.
+Familiar with various pricing valuation models e.g. Independent Price Verification, External Valuer.
+Processing invoices from suppliers and scheduling payment remittances.
+Liaised with external auditors during interim and final audit.
+Specialist/ NSF Battery Sergeant Major (2nd Sergeant, 24th Battalion Singapore Artillery).
+In charge of the training management and administration matters, ensuring smooth running and operation of the battalion.
+Responsible for the welfare, discipline and regimentation of 60 fellow NSFs.
+Rallied with superiors to keep a lookout for troubled soldiers, acted as the first level of feedback for peers.
+Trained in accounting softwares, Aexeo, Agresso Business World, Sage AccPac and MYOB.
+Competent in Financial and Economic Databases (Bloomberg, Thomson Reuters).Dec 2016 to Present  Senior Fund Accountant at Citco Fund Services (Singapore), Shared.
+Continue to perform fund services to European hedge funds but take on higher responsibility by handling funds with bigger AUM.
+Preparation of financial statements and other required reports on a weekly/monthly basis while ensuring tight deadlines are met.
+Develop and maintain relationships with investment advisors/managers, banks, brokers and investor relation group.
+Working closely with account manager in the launch and set up of new funds. Preparation of financial statements and other required reports on a weekly/monthly basis while ensuring deadlines are met.
+Coaching and training juniors in understanding calculation of NAV process for new funds assigned to them and reviewing of their work.
+Manage juniors and assist them in work to ensure deliverable of funds are not delayed.
+Troubleshooting with with technical support team to resolve financial reporting issues.
+Assist account manager to prepare reports for auditors and respond to auditor queries.
+Complying and onboard new internal controls, policies and procedures. Review and make suggestions for process improvement.
+Assist account manager in any ad-hoc projects when necessary.
+Mar 2014 to December 2016 Fund Accountant at Citco Fund Services (Singapore), Shared Services Centre.
+Perform fund administration services to European hedge funds - Clients include Goldman.
+Sachs , Winton Capital and current major client, Marshall Wace.
+Prepare financial reporting for hedge funds, - Calculation of Net Asset.
+Value and preparation of Statement of Asset and Liabilities and Profit and.
+Loss Statement on daily/weekly/monthly basis, while ensuring tight  deadlines are met.
+Securities valuations include validation of market prices against vendors on the various listed securities and OTC products such as options, variance swap and CDS. Also include stale price report check, flagging out of suspended/halted securities, performing P/L market value checks.
+Ensuring capital transactions are booked correctly and P&L is allocated correctly at fund, class and investor level. Process payment of fund expense through in-house system and booking of fund income/fee accruals. Calculation and validation of management fees, highwatermark, performances fees, equalisation and forced redemption .
+Generating associated daily reports for major hedge funds while meeting.
+Handled funds with master feeder fund structure with mutli line hedging.
+Perform daily and month end reconciliation of cash, trade and positions.
+using in-house reconciler / excel spread sheet, supported by client’s blotters and broker statements.
+Reconcile dividends and equity swaps/collateral and any interests related on monthly basis.
+Resolve day to day trade and cash discrepancies with investment managers, brokerages and headquarter in Dublin.
+Coaching juniors in understanding calculation of NAV process and firm’s.
+Have strong interest in financial market and want to further career growth within hedge fund industry only.
+BSc (Hons) Banking and Finance Degree – University of London.
+International Programmes – Second Class Honours (Upper Division).
+Diploma in Banking and Financial Services (Major in Financial Trading), Singapore Polytechnic.
+Certificate in Technical Analysis (Finance) awarded by Singapore Technical analysts & Trader Society - Taken due to self interest.
+Part-time Bank Assistant at United Overseas Bank (Singapore), Group Technology and Operation, Business Internet Banking (BIB) Took on “maker” role. Duties include:.
+Assist to process daily influx of BIB account opening [Application Section] through bank intranet system. Processes include entering company details, appointed administrators & signatories, product package (Basic/Professional) and bank accounts.
+Access Bank Wide Customer Information Facility (BWCIF) for extracting/verifying client’s personal details.
+Creation of Remittance (ROS) and Inter-Bank Giro (IBG) for electronic bulk services. Process various customer requests [Maintenance Section] such as linking company new bank account, reissuing of password/tokens, creation and termination of user/account.
+Microsoft Outlook, Word, Power Point and Bloomberg. Familiar with Excel with very basic understanding on VBA macro.
+Able to work independently and often assist others when issues arise. Display strong commitment to work and learn. Organised with good planning ahead to allow completing various tasks within tight deadlines. Trained to pay more attention to details and numbers. Initiate problem solving surrounding trade discrepancies or system reporting issues. Self-discipline, humble, integrity, self driven and take high responsibility for own work.
+Surfing the internet, Watching movies, Playing console Racing/ Strategy games. Follow financial market news from forexlive, markewatch, zerohedge etc.
+One month after confirmation, No issues with working OT/ Weekend/ Shifts or PH.8th Semester Undergraduate | Computer Science Engineering | UCE RTU, Kota.
++91 9772881151 | jaijanyani@gmail.com | 7/108, Malviya Nagar Jaipur (302017).
+To seek an opportunity to apply my technology expertise along with my creative problem solving skills in an innovative software company.
+Machine Learning Engineering Intern , Forsk Technologies , Jaipur  (May,2017 – July,2017).
+Learned the foundational concepts of data science and machine learning including python and statistics, enough time was spent on understanding the concept behind each algorithm and examples and case studies were done. Built some mid-scaled machine learning models using supervised and unsupervised learning.
+Software Engineering Intern , Proxbotics Creations Technologies , Jaipur (May,2016 – July,2016) Developed and optimized various projects including ecommerce, booking & reservation, non-profit organization Websites, using technologies: HTML, CSS, PHP, JavaScript, MySQL etc.
+The course contains 15+ modules including Android Basics, fragments, screen designing, intents, various views, signing app, web servers, web services, notifications, etc.
+All projects are available on git: https://github.com/JAIJANYANI.
+command line app which takes all your CCTV feeds as input and filters feeds with abnormal events which results in 90% less videos to watch, Used image processing and deep learning algorithms, outputs all time-stamps of interesting events for all feeds.
+-An android app to estimate calories present in food with still image. Trained own Data-set (Meal-net) using Transfer learning Built upon Inception V3, Proposed a Deep Convolutional Neural Network (CNN) with 48 Layers, Developed a REST API to integrate it in Mobile apps, Optimized total computation time ~ 2 Seconds.
+- A Flask app to predict the future prices of various Crypto Currencies, implemented various supervised and deep learning algorithms such as LSTM (RNN), polynomial regression, using scikit-learn, tensorflow, keras etc.
+REST API to Detect Incoming SMS or Email as Spam or Ham which can be trained on your own data set. Used NLP with Naive Bayes for Sentiment Analysis.
+-An application which detects objects present in a still image, implemented convolutional neural network using open source machine learning library which can be run on multiple machines to reduce training workloads, classifies objects using pre-trained image-net model.
+Web Portal to manage attendance of students and faculties, can be integrated to mobile apps. Uses Php, MySQL, HTML, CSS, JavaScript, etc.
+Decentralized web app built on Ethereum Block-Chain using Truffle and Embark framework, which can be used to transfer funds between accounts which automatically deducts tax from the account.
+Applied Machine Learning , Applied Data Science , Exploratory Data Analysis & Data Visualization , Neural Networks & Deep Learning , Computer networks , Data Structures & Algorithms , Operating Systems , Cloud Computing , Data Mining , Block chain Essentials , Database Management Systems.
+University College of Engineering , Kota : Btech (Pursuing) in Computer Science Engineering  (2018).
+St. Edmunds School , Jaipur : Senior Secondary (XII) Education Rajasthan  (2012).
+St. Edmunds School , Jaipur : Secondary (X) Education Rajasthan  (2010).Conifer Financial Services May 2015 – Present Team Lead, Fund Accounting.
+Perform and review daily/monthly cash and position reconciliations and NAV(Net asset valuation) for Hedge Funds and Fund of funds.
+Prepare and review monthly financial statements, management and performance fee calculation and income and expense accrual.
+Process capital calls, distributions and capital statement for endowment/pension clients(limited partners) investing in private equity.
+Within first 6 months of joining Conifer, was selected to lead a team for a pivotal hedge fund client of AUM US $5 bil.
+Constantly communicated with clients, brokers, investor managers and custodians to resolve issues.
+Involved in training of new employees and offshore team and developed current employees through daily interaction.
+Review of daily price control checks, profit and loss reasonableness and inter system reconciliations.
+Verify the processing of corporate actions on portfolio securities and investigate as required.
+Improved team efficiency by constructing ad hoc excel solutions to automate daily/repetitive reporting related tasks, as well as implementing control checks to benefit the team.
+Assist on year-end audit requests within the assigned portfolio of funds.
+Prepared and submitted compliance reports on a monthly basis.
+Managed a team of 20 people. Prepared and supervised team in preparing daily trades, position and cash reconciliations for hedge funds of AUM US $25 billion.
+Possess strong communication skills by liaising daily with investment managers, brokers and fund accountants and cultivating a good working relationship with them.
+In Depth knowledge of Equities, Fixed Income and Derivative products (Options, Forwards, Futures and Swaps).
+Cross trained team members to enhance their technical knowledge and improve efficiency.
+Was the go-to person within the team and assisted team members to solve their day-to-day issues. Additionally, would follow-up until they are fully resolved.
+Support the conversion of any new clients, existing migrations from other citco offices or new clients and migration of manual reconciliation to automated reconciliation tools.
+Preparation of management reports to monitor performance of the team and each individual. Suggested improvements or provided training to team members if required.
+Juggled own deliverables while supervising the team simultaneously. Good at multi-tasking in a deadline driven environment to ensure that all deliverables and month end packages are delivered on time to client.
+Held the reviewer role for reconciliations as well as signed off on month end NAV packages.
+Involved in improving processes in the team to increase efficiency and implemented various internal controls and to minimize the probability of errors.Assisted clients to plan ahead through various financial planning models - Provided consistent support for their insurance coverage and investment portfolios.
+Always going the extra mile to achieve high customer satisfaction level.
+Ensured adherence to Government CPF policies and IRAS guidelines.
+Adapted to different business platforms with openness to innovative ideas.
+Displayed excellent customer service that would lead to long-term customer satisfaction and continuous support.
+Conducted periodic market research to maintain competitiveness, and improve product quality and its user-friendliness.
+Enhanced several project databases with self-taught Microsoft Access (SQL, VBA & macros) knowledge.
+Performed Customer Due Diligence, Know-Your-Customer and Anti-Money.
+Laundering checks within stipulated turnaround time (1 work day) as part of Jul 2012 - Oct 2012.
+Periodic portfolio reviews done to reduce Non-Performing Loan cases.
+Ensured data accuracy and adherence to policies and guidelines.
+Supported the department’s administrative needs such as high sensitivity.
+Managed the restructuring of overdue and current payments with all the creditors of clients.
+Issued repayment cheques on behalf on clients on a monthly basis.
+Drafted Directors' Reports & financial statements such as Cash Flow.
+Resourceful professional equipped with knowledge in accounting and finance.
+Adaptable fast-learner to even comprehend complex IT skills required on the job.
+Solution-focused perspective that remembers the importance of root cause analysis.
+Detail-oriented personality hence motivated to produce work of excellence and on a constant lookout for improvements.
+On-task nature induces persistence with determination and commitment till job completion.
+Customer-centric mindset always going the extra mile to ensure positive customer experience.
+Facilitated lending from bank to individuals namely in hire purchase, credit card and overdraft applications.
+Performed vigilant credit checks (CDD, KYC & AML) within stipulated turnaround time (1-3 work days) in spite of high volume.
+Periodic covenant checks and regular portfolio reviews done to reduce NonPerforming Loan cases.
+Ensured data accuracy and adherence to policies and guidelines.
+Access, ACCPAC Accounting Software, UBS Accounting Software.Citco Fund Services (Singapore) Pte. Ltd., Fund Accountant              Feb. 2016 – Current.
+Performance of the administration and services pursuant to the administration agreement of hedge funds.
+Preparation and review of daily, weekly and monthly Net Asset Value calculations, financial statements, and associated reports in accordance to service level agreements.
+Development and implementation of standard operating procedures.
+Liaison with investment managers, brokers and external auditors.
+Proficient with various incentive fee, management fee and administration fee computations.
+Proficient with migrations, liquidations and mergers of funds.
+FTC Corporate & Tax Advisory Pte. Ltd., Client Services Executive (Internship)   Oct. 2015 – Jan. 2016.
+Preparation of financial statements in accordance with Singapore Financial Reporting Standards.
+Preparation and submission of XBRL and annual returns for ACRA filings.
+Preparation and submission of corporate tax returns and provisional personal tax returns.
+LG Electronics Singapore Pte. Ltd., Accounts Associate            Nov. 2014 – Oct. 2015.
+Provision of variance analysis of monthly and quarterly expenses.
+Management of company’s cash accounts with commercial banks.
+Reconciliation of bank accounts daily to monitor all bank transactions.
+Bachelor in Accounting & Finance (Second Class Honours Upper Division).
+Language Proficiency:   English, Mandarin Chinese  Achievements:.
+Commanding Officer Choice and Best Commander for National Service.
+Represented Ngee Ann Polytechnic in SGDF Dancesport Nationals and IVP Track and Field Meet.
+Coordinated an outreach programme between Ngee Ann Polytechnic and Wildlife Reserves Singapore.
+Management committee of Environmental Rangers Society and Kung Fu Club in Ngee Ann Polytechnic - Organising committee and student coordinater in various events in Singapore Institute of Management and  xNgee Ann Polytechnic.8th Semester Undergraduate | Computer Science Engineering | UCE RTU, Kota.
++91 9772881151 | jaijanyani@gmail.com | 7/108, Malviya Nagar Jaipur (302017).
+To seek an opportunity to apply my technology expertise along with my creative problem solving skills in an innovative software company.
+Machine Learning Engineering Intern , Forsk Technologies , Jaipur  (May,2017 – July,2017).
+Learned the foundational concepts of data science and machine learning including python and statistics, enough time was spent on understanding the concept behind each algorithm and examples and case studies were done. Built some mid-scaled machine learning models using supervised and unsupervised learning.
+Software Engineering Intern , Proxbotics Creations Technologies , Jaipur (May,2016 – July,2016) Developed and optimized various projects including ecommerce, booking & reservation, non-profit organization Websites, using technologies: HTML, CSS, PHP, JavaScript, MySQL etc.
+The course contains 15+ modules including Android Basics, fragments, screen designing, intents, various views, signing app, web servers, web services, notifications, etc.
+All projects are available on git: https://github.com/JAIJANYANI.
+command line app which takes all your CCTV feeds as input and filters feeds with abnormal events which results in 90% less videos to watch, Used image processing and deep learning algorithms, outputs all time-stamps of interesting events for all feeds.
+-An android app to estimate calories present in food with still image. Trained own Data-set (Meal-net) using Transfer learning Built upon Inception V3, Proposed a Deep Convolutional Neural Network (CNN) with 48 Layers, Developed a REST API to integrate it in Mobile apps, Optimized total computation time ~ 2 Seconds.
+- A Flask app to predict the future prices of various Crypto Currencies, implemented various supervised and deep learning algorithms such as LSTM (RNN), polynomial regression, using scikit-learn, tensorflow, keras etc.
+REST API to Detect Incoming SMS or Email as Spam or Ham which can be trained on your own data set. Used NLP with Naive Bayes for Sentiment Analysis.
+-An application which detects objects present in a still image, implemented convolutional neural network using open source machine learning library which can be run on multiple machines to reduce training workloads, classifies objects using pre-trained image-net model.
+Web Portal to manage attendance of students and faculties, can be integrated to mobile apps. Uses Php, MySQL, HTML, CSS, JavaScript, etc.
+Decentralized web app built on Ethereum Block-Chain using Truffle and Embark framework, which can be used to transfer funds between accounts which automatically deducts tax from the account.
+Applied Machine Learning , Applied Data Science , Exploratory Data Analysis & Data Visualization , Neural Networks & Deep Learning , Computer networks , Data Structures & Algorithms , Operating Systems , Cloud Computing , Data Mining , Block chain Essentials , Database Management Systems.
+University College of Engineering , Kota : Btech (Pursuing) in Computer Science Engineering  (2018).
+St. Edmunds School , Jaipur : Senior Secondary (XII) Education Rajasthan  (2012).
+St. Edmunds School , Jaipur : Secondary (X) Education Rajasthan  (2010).Determine "Net Asset Value" and prepare investor P&L allocations in accordance with Service Level Agreements.
+Keep and maintain financial records including accrual reconciliations versus external sources, review reconciliations from other internal departments.
+Monitor activity in Fund, covering corporate actions, income and expenses, fees, capital transfers and performance.
+Support the conversion of any new clients or existing migrations.
+Prepare ad hoc reporting in line with client and internal requirements.
+Maintain positive and professional relationships with Investment Managers, clients, auditors and other Citco offices.
+Work with all team members to improve product quality, efficiency and consistency.
+Production of daily operational deliverables in line with client/other Citco Offices service level agreements.
+Preparing daily trades, position and cash reconciliation.
+Break resolution for all open items with the brokers or clients.
+Verify Security Master set up to ensure proper P&L capture and risk management reporting.
+Review of Over the Counter (OTC) master agreements and confirmations.
+Support the conversion of any new clients or existing migrations.
+Work with Business Analyst on daily basis on any open issues per client.
+Work with other Citco Offices and Operations Support to resolve any open issues.
+Assist in verifying test results for all in house system enhancements.
+Assist in verifying test results for all in house system enhancements.
+Provide full set of vessel accounts (includes PO accruals, Portage Bills, Operating Expenses Reports, etc) related support to Finance Manager.
+Preparing financial statements and supporting documents of the monthly expenses to the clients.
+Comparing the variance between the budget and actual expenses in order to prepare working fund request to the clients.
+Complete the accounts in compliance with the owners’ requirements within time line.
+Improving strong analytical skills and creativity to derive solutions to the numerous work related issues.
+Summit documents of import to Port Singapore Authority website for declaration.
+Improving on my communication skills with the clients and colleagues which help me to understand how to manage relationship with clients better.
+• Units include accounting, economics, financial reporting, auditing, financial management, etc.
+Units include marketing, human resources, information system for business, business mathematics, etc.
+Ms Office (Excel, Word and PowerPoint) • Proficient in English, Mandarin and Malay.Your role will encompass all facets of the calculation of net asset values on a variety of complex hedge funds.
+Working closely with the senior fund accountants, supervisors and (Senior)/account managers, your responsibilities will include:.
+o Performing the administration of and any services pursuant to administration agreements in respect of a portfolio of hedge funds.
+o Initially assisting with the preparation of Net Asset Value calculations, financial statements and associated reports with a view to operate independently within deadlines.
+o Performing daily &amp; monthly reconciliations for hedge funds.
+o Meeting expectations of fund participants, adhering to deadlines.
+o Maintaining day-to-day relationships with investors, investment advisors/managers, banks, brokers and auditors and other fund participants</li>.
+o Assisting auditors and other advisers, preparing Annual Reports.
+o Ideally 1- 2 years experience in a Fund Accounting environment, preferably hedge funds.
+o Display an active interest in the financial markets and hedge fund industry.Senior Client Services Accountant – October 2016 to Present.
+Watiga Trust Pte Ltd and its parent company Watiga & Co. are boutique trust, agency and fund administration firms, with a focus on alternative investments in Southeast Asia.
+Managing the trust/fund administration service line, production of investor reports, financial statements, NAV calculations, monthly reconciliations and liaising with external service providers.
+Supporting client services in the development of finance operations and functions including with respect to trust and agency financial accounting and administration.
+Act as one of the signatories for maintains client’s trust bank accounts to enhance security, independence and objective for FinTech participants.
+Reviewing monthly internal financial and management accounts which prepared by the external accountant.
+Providing Management with internal financial and management accounts for financial and risk monitoring, preparation of statutory financial statements, bank and financial accounts reconciliation.
+Developing and maintaining internal financial controls and effective accounting system.
+Onboarding of new clients, screening and verification of client KYC documents.
+A Senior Fund Accountant is primarily responsible for all aspects of day-to-day fund accounting, preparation or review of accurate and timely Net Assets Values (NAV) and performing the administration of and any services under administration agreements in respect of a portfolio of hedge funds.
+Calculation and ensure the accuracy of  Net Asset Value, including monthly expenses accrual, preparation of month-end balance sheet reconciliations to ensure all balances have been correctly reported, documented and supported.
+Deal with the funds’ transfer agent services including subscriptions, redemption, transfers, collection of due diligence documentation, maintain an up-to-date list of shareholders in the fund, as well as handle related compliance requirements.
+Manage timely completion of corporate action transactions, trade processing, redemption payments and banking instructions.
+Record accurately, and ensure compliant with the company policies and authentication procedures, such accounting records as securities positions, review of corporate actions or distributions at the portfolio level.
+Calculation of management and performance fees, and preparation of billing to clients.
+Perform of due diligence identification of shareholders of the Fund.
+Liaise and work closely with clients, investment managers, investment advisors/managers, banks, brokers and auditors and other fund participant resolve any service delivery matter.
+Provide Investors  with periodic financial statements and coordinate the annual audit.
+Preparation of Financial Statements for Auditing Purposes in compliance with IFRS requirements.
+A Fund Accountant is primarily responsible for daily fund accounting, including fund valuation, cash and position reconciliation, resolution of discrepancies with transfer agent's and custodian's records, etc.
+Manage timely completion of corporate action transactions, trade processing, redemption payments and banking instructions.
+Record accurately, and ensure compliant with the Bank policies and authentication procedures, such accounting records as securities positions, review of corporate actions or distributions at the portfolio level.
+Acting as the first point of escalation in resolving issues/bottlenecks raised by clients.
+Prepare month end regulatory and clients’ reports for submission to the relevant authority.
+Handle full set of accounts for subsidiary Centillion Environment & Recycling (Singapore) Pte Ltd.
+Review books from Centillion Investment China Pte Ltd (Subsidiary of Centillion Environment & Recycling (Singapore) Pte Ltd).
+Supervise two staffs and assist in overseeing daily finance operations.
+Monitor cash flow, funds transfer and to ensure settlement from overseas inter-companies.
+Report to Regional South East Asia Finance Manager and Assistant Finance Manager (Singapore). My scope of responsibilities embraces of handling one full set of accounts and supervising the accounts receivable and payable junior staffs.
+Preparing payroll for 155 workers and 35 office staffs. Including payroll of a subsidiary, SCA Packaging Jurong Pte Ltd for 42 workers and 8 office staffs (using the Payroll software: EASY Payroll Enterprise).
+Preparing weekly cash flow forecast and cash management report.
+Hor Kew Private Limited, a subsidiary of Hor Kew Corporation Limited.
+Report directly to Group Financial Controller. My scope of responsibilities embraces of handling one full set account for a subsidiary of Hor Kew Group and full functions of accounts payable for Hor Kew Private Limited.
+Check and verify staff reimbursements and directors claims.
+Prepare monthly reconciliation of inter-company balances and transactions.
+Liaise with auditor on the accounts payables during the half year and year-end audit.
+Prepare the monthly schedule of Trade and Miscellaneous Creditors.
+Language: English (Proficient); Mandarin (Proficient); Malay (Intermediate).
+IT: MS Word (Proficient); MS Excel (Proficient); MS PowerPoint (Intermediate).
+Accounting System Skills: eFront; Paxus; Sungard; QuickBooks; Sun Financial and Peachtree.
+Courses / Product Training: PWC S-VACC’s briefing; Guard Against Bankruptcy (Seminar);.
+Guest Speaker – RSM Financial Services Vertical training – Introduction to the                    World of Financial Services.Citco Fund Services (Singapore) Pte Ltd                              May 2016 – Present            Fund Accountant (Full-Time).
+Prepared 3 daily, 1 weekly and 14 monthly Fund-Level Net Asset Value computations and Financial Statements for over 15 Hedge Funds across 3 Databases using in-house software to be disseminated to shareholders worldwide.
+Completed 35 Trader-Level Financial Statements and Net Asset Value calculations under 2 funds according to their individual Investment Advisory Agreements which accounted for 20% of the team's workload.
+Liaised with over 10 Investment Managers and 10 Investor Relations Teams to bring about an increase in client's satisfaction by 20%.
+Corresponded closely with 3 Pricing, Corporate Actions, Dividend and Reconciliations Teams respectively to improved delivery time of Financial Statements by 15%.
+Cross-trained 7 colleagues in a team of 9 to ensure that 12 funds in 2 databases were completed accurately based on individual clients request which developed bench strength by 20%.
+Streamlined the process of migration of funds from other offices (such as Toronto, Dublin) to Singapore which increased migration efficiency by 20%.
+Written 2 Standard Operating Procedures for the generation of Financial Statements and reviewed 1 Financial Statement.
+Completed 4 FIN 48 reports and assisted in answering more than 20 audit queries which reduced audit time taken by 25%.
+Provide Mentorship to 3 juniors thus increasing their technical abilities by 30%.
+Leading a team of 3 to replaced 8 copiers over 4 levels of the company within a tight deadline of 3 days.
+Working closely in a team of 7 with 3 senior colleagues in re-vamping of network structure within the given time constraint of 10hr.
+Planning and executing of Data Migration 2 different office, ensuring over 1 TB of data are replicated at 99%.
+Maintaining a IT Knowledge Base with over 50 created knowledge articles on SharePoint thus reducing troubleshooting time by 30% and decreased internal user downtime by 15%.
+JK Technology Pte Ltd(Outsource to AIA Singapore)                          Oct 2011 – June 2013 Desktop Technician (Full-Time).
+Coordinating with over 10 departments’ secretaries in the relocation of over 300 workstations to increase work flow efficiency by 20%.
+Providing excellent Customer service to over 500 users which increase Customer Satisfaction by 35%.
+Devising a procedure in upgrading of Windows 7 over 500 computers which reduced down time by 25%.
+Computer Proficiency: Microsoft Excel, Word and Powerpoint.
